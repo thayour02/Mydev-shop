@@ -19,8 +19,8 @@ export default function ModernContact() {
         {
             icon: <FaEnvelope />,
             title: "Email",
-            value: "devthayour@gmail.com",
-            link: "mailto:devthayour@gmail.com",
+            value: "temitayoemmanuel0101@gmail.com",
+            link: "mailto:temitayoemmanuel0101@gmail.com",
             color: "from-red-400 to-pink-500"
         },
         {
