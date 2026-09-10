@@ -7,7 +7,7 @@ import html from '../assets/html.png'
 import css from '../assets/css.png'
 import tailwind from '../assets/tailwind.png'
 import node from '../assets/node.png'
-import java from '../assets/js.png'
+import java from '../assets/image.png'
 import logo from '../assets/logo192.png'
 import git from '../assets/github.png'
 import mongo from '../assets/mongo.png'
@@ -26,7 +26,7 @@ export default function ModernSkills() {
                 { name: "Expo", src: expo, color: "from-gray-400 to-gray-600" },
                 { name: "React", src: logo, color: "from-cyan-400 to-blue-500" },
                 { name: "JavaScript", src: java, color: "from-yellow-400 to-yellow-600" },
-                // { name: "TypeScript", src: java, color: "from-blue-500 to-blue-700" },
+                { name: "Python", src: java, color: "from-blue-500 to-blue-700" },
                 { name: "HTML5",  src: html, color: "from-orange-500 to-red-500" },
                 { name: "CSS3", src: css, color: "from-blue-400 to-blue-600" },
                 { name: "Tailwind CSS", src: tailwind, color: "from-cyan-400 to-teal-500" }
