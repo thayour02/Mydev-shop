@@ -1,17 +1,20 @@
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './App.jsx'
+import './i18n'
+import AppModern from './AppModern.jsx'
 import { BrowserRouter } from 'react-router-dom'
 
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
+import 'aos/dist/aos.css';
+
 AOS.init({
-  duration:2000
+  duration: 1000,
+  once: true,
+  easing: 'ease-out'
 });
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-    <App />
+    <AppModern />
   </BrowserRouter>    
 )
