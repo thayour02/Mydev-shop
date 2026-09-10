@@ -3,18 +3,18 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 18
+      nodejs: 18  # change to your runtime
+  pre_build:
     commands:
-      - echo Installing dependencies...
-      - npm ci --legacy-peer-deps
-
+      - echo Logging in to Amazon ECR...
   build:
     commands:
-      - echo Building the React app...
-      - npm run build
+      - echo Build started on `date`
+      - echo Building the application...
+  post_build:
+    commands:
+      - echo Build completed on `date`
 
 artifacts:
   files:
     - '**/*'
-  base-directory: dist
-  discard-paths: no
