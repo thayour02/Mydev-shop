@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope, FaHeart } from 'react-icon
 import { Link } from 'react-scroll';
 import { useTranslation } from 'react-i18next';
 
-export default function Footer() {
+export default function  Footer() {
     const { t } = useTranslation();
     const currentYear = new Date().getFullYear();
 

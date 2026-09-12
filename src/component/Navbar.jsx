@@ -74,7 +74,7 @@ export default function Navbar() {
 
                     {/* Resume Button */}
                     <a
-                        href="/src/assets/cv.pdf"
+                        href="/src/assets/temitayo.pdf"
                         download
                         className="hidden md:block px-5 py-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold rounded-full hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 hover:scale-105 text-sm"
                     >
