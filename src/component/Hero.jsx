@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaEnvelope, FaArrowDown } from 'react-icons/fa';
 import { Link } from 'react-scroll';
 import { useTranslation } from 'react-i18next';
 
-export default function ModernHero() {
+export default function Hero() {
     const { t } = useTranslation();
     return (
         <section id="home" className="min-h-screen pt-8 flex items-center justify-center relative overflow-hidden bg-black">

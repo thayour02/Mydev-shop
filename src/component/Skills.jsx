@@ -17,7 +17,7 @@ import mailtrap from '../assets/mailtrap.png'
 import fastapi from '../assets/fast.png'
 
 
-export default function ModernSkills() {
+export default function Skills() {
     const { t } = useTranslation();
     const skillCategories = [
         {

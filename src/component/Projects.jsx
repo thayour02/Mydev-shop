@@ -7,7 +7,7 @@ import food from '../assets/foodie.jpg';
 import weather from '../assets/wed.jpg';
 import resume from '../assets/resume.png';
 
-export default function ModernProjects() {
+export default function Projects() {
     const { t } = useTranslation();
     const [currentPage, setCurrentPage] = useState(0);
     const projectsPerPage = 4;

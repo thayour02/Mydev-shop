@@ -3,7 +3,7 @@ import { FaEnvelope, FaLinkedin, FaGithub, FaTwitter, FaWhatsapp } from 'react-i
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
-export default function ModernContact() {
+export default function Contact() {
     const { t } = useTranslation();
     const [formData, setFormData] = useState({
         name: '',
@@ -170,8 +170,8 @@ export default function ModernContact() {
                                         </div>
                                         <div className="flex-1">
                                             <div className="text-sm text-gray-400">{method.title}</div>
-                                            <div className="text-white font-medium group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:from-blue-400 group-hover:to-purple-400 group-hover:bg-clip-text transition-all duration-300">
-                                                {method.value}
+                                            <div className="text-white flex-wrap  font-medium group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:from-blue-400 group-hover:to-purple-400 group-hover:bg-clip-text transition-all duration-300 ">
+                                                <p className="flex-none">{method.value}</p>
                                             </div>
                                         </div>
                                     </motion.a>

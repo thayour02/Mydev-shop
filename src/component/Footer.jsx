@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope, FaHeart } from 'react-icon
 import { Link } from 'react-scroll';
 import { useTranslation } from 'react-i18next';
 
-export default function ModernFooter() {
+export default function Footer() {
     const { t } = useTranslation();
     const currentYear = new Date().getFullYear();
 
@@ -17,7 +17,7 @@ export default function ModernFooter() {
         { icon: <FaGithub />, url: 'https://github.com/thayour02', label: 'GitHub' },
         { icon: <FaLinkedin />, url: 'https://www.linkedin.com/in/temitayo-emmanuel-666775369', label: 'LinkedIn' },
         { icon: <FaTwitter />, url: 'https://x.com/_tayo02', label: 'Twitter' },
-        { icon: <FaEnvelope />, url: 'mailto:devthayour@gmail.com', label: 'Email' }
+        { icon: <FaEnvelope />, url: 'mailto:temitayoemmanuel0101@gmail.com', label: 'Email' }
     ];
 
     return (
